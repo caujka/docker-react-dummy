@@ -16,8 +16,5 @@ services:
         volumes:
             - /app/node_modules
             - .:/app:z
-        command: 
-            - "npm"
-            - "run"
-            - "test"
+        command: ["npm", "run", "test"]
 
